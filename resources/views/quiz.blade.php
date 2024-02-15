@@ -3,12 +3,12 @@
 @section('title', '防災クイズ')
 
 @section('css')
-    <link rel="stylesheet" href="{{ asset('css/start.css') }}" />
+    <link rel="stylesheet" href="{{ asset('storage/css/start.css') }}" />
 @endsection
 
 @section('content')
     <div class="header">
-        <img class="logo" src="{{ asset('img/logo.png') }}">
+        <img class="logo" src="{{ asset('storage/images/logo.png') }}">
     </div>
 
     <div class="content">

@@ -12,7 +12,7 @@
     <!-- Styles -->
     @yield('css')
 
-    <link rel="icon" href="{{ asset('img/favicon.png') }}" />
+    <link rel="icon" href="{{ asset('storage/images/favicon.png') }}" />
 
     <script>
         (function(d) {
@@ -33,7 +33,6 @@
 
     <main>
         @yield('content')
-        @include('layouts.botton')
     </main>
 
     <footer>
